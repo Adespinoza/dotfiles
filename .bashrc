@@ -1,5 +1,7 @@
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+# Custom binaries are stored in ~/.bin
+if [ -d ~/.bin ]; then
+  export PATH=~/.bin:$PATH
+fi
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
