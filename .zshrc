@@ -128,10 +128,9 @@ source $ZSH/oh-my-zsh.sh
 # Set Spaceship ZSH as a prompt
 # autoload -U promptinit; promptinit
 # prompt spaceship
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 
-# export PATH="$PATH:$HOME/.rvm/bin"
+# Load rbenv automatically by appending
+# the following to ~/.zshrc:
 
-# eval "$(rbenv init -)"
-# export PATH="$HOME/.rbenv/bin:$PATH"
-# eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
