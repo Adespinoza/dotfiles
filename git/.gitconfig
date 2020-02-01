@@ -1,0 +1,42 @@
+[user]
+  name = Adam Espinoza
+  email = adamespi97@gmail.com
+  github = Adespinoza
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+  ui = auto
+
+[color "branch"]
+  current = magenta
+  local = blue
+  remote = green
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = red
+
+[help]
+  autocorrect = 1
+
+[push]
+  default = matching
+
+[branch]
+  autosetupmerge = true
+
+[advice]
+  statusHints = false
+
+[core]
+  autocrlf = false
+  safecrlf = true
