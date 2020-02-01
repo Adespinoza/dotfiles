@@ -36,6 +36,8 @@ brew "postgresql"
 brew "redis"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Simplified and community-driven man pages
