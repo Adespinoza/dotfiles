@@ -1,0 +1,48 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "ef1bd49e-31b1-4ced-b078-eed8d6238f5e"
+    js:
+      beautify_on_save: true
+      default_beautifier: "Prettier"
+  "atom-material-ui":
+    colors: {}
+    tabs:
+      compactTabs: true
+    ui:
+      panelShadows: true
+      useAnimations: false
+  "atom-ternjs":
+    inlineFnCompletion: false
+    inlineFnCompletionDocumentation: true
+    snippetsFirst: true
+    useSnippets: true
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  docblockr:
+    lower_case_primitives: true
+    param_description: false
+    return_description: false
+  "exception-reporting":
+    userId: "ecf7224a-7750-4c82-a6b0-47e17b4569d9"
+  "language-babel": {}
+  "linter-eslint":
+    autofix:
+      fixOnSave: true
+  "linter-jscs":
+    fixOnSave: true
+  "linter-ui-default":
+    panelHeight: 268
+  minimap:
+    plugins:
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  script:
+    ignoreSelection: true
+    stopOnRerun: true
+  welcome:
+    showOnStartup: false
